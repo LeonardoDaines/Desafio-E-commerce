@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Desafio_E_commerce_Dashboard_Local.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Pedidos";
+}
+
+<h1>Pedidos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Pedido</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.DataCriacao)</a>
+            </th>
+            <th>
+                 <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.DataEntrega)</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Produto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipe)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataCriacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.ProdutoNome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipe.EquipeNome)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PedidoID" class="btn btn-primary">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.PedidoID" class="btn btn-primary">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.PedidoID" class="btn btn-danger">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
