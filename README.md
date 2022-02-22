@@ -3,7 +3,7 @@ Este repositório contém um web api escrito em C# usando o framework .NET para 
 
 # Como abrir o projeto
 Para utilizar o projeto sera necessário fazer o download do visual studio
-O principal motivo é que o proprio visual studio ja vem com o SQL Server que vem junto com a instalação 
+O principal motivo é que o proprio visual studio ja vem com o SQL Server junto da instalação 
 
 utilizei a versão 2022 .NET 6.0 (Suporte de longo prazo) 
 
@@ -14,7 +14,7 @@ Versão gratis - Visual Studio 2022 Comunidade
 ---
 
 Apos baixar o visual studio e o arquivo do projeto abra o arquivo como mostra a imagem
-![Dentro da pasta abra o visual studio](https://www.canva.com/design/DAE5F6i2z54/Fu5ZI--Bu6LCkvy1_F9O-Q/view?utm_content=DAE5F6i2z54&utm_campaign=designshare&utm_medium=link&utm_source=shareyourdesignpanel)
+![Dentro da pasta abra o visual studio](https://export-download.canva.com/Ajw7k/DAE5GHAjw7k/5/0/0001-19606018163.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220222T004847Z&X-Amz-Expires=63480&X-Amz-Signature=161797c1a413caa666f0a6b8c5bdc027b2673f9f0fc5d516fa16998361aa6c48&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Design%2520sem%2520nome.png&response-expires=Tue%2C%2022%20Feb%202022%2018%3A26%3A47%20GMT)
 
 ---
 
@@ -23,13 +23,12 @@ Em seguida abra Desafio o Desafio E-commerce Dashboard Local.sin
 
 ---
 
-Ao abrir pela primeira vez é possivel que demore um pouco e tambem pessa para baixar mais algumas dependencias
-
+Ao abrir pela primeira vez é possivel que demore um pouco e também pessa para baixar mais algumas Dependências
 ![Click em play para rodar a aplicação](https://export-download.canva.com/i2z54/DAE5F6i2z54/31/0/0001-19601656638.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220222T053249Z&X-Amz-Expires=43087&X-Amz-Signature=951a06537261d6b271db89a969ec1fca54902a8860916d4aee383d0cb8480eae&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Design%2520sem%2520nome.png&response-expires=Tue%2C%2022%20Feb%202022%2017%3A30%3A56%20GMT)
 
 ---
 
-Apos aberto o projeto no navegador falta uma ultima etapa
+Após aberto o projeto no navegador falta uma ultima etapa
 ao clicar em pedidos, produtos ou equipe aparecera uma mennsagem de erro, click em adicionar migrações e recarregue a pagina e pronto
 tudo deve estar funcionando normalmente agora
 
@@ -37,10 +36,10 @@ tudo deve estar funcionando normalmente agora
 # Desafio tokens segurança
 
 Entre os desafios estava a geração de um token de seguraça
-E como isto nao esta muito visivel no projeto eu decidi colocar aqui algumas instruções e imagens para demonstrar
+E como isto não esta muito visivel no projeto eu decidi colocar aqui algumas instruções e imagens para demonstrar
 
 Para isso eu utilizei o postman 
-[Link para download Visual studio](https://www.postman.com/downloads/)
+[Link para download do Postman](https://www.postman.com/downloads/)
 
 
 ![Click em play para rodar a aplicação](https://export-download.canva.com/4AhpQ/DAE5GB4AhpQ/3/0/0001-19604076121.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220222T115911Z&X-Amz-Expires=19526&X-Amz-Signature=d230963ad6aa39b3a7a520595b4a40a010d93f7c5e2973257b468f83255c57ff&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Design%2520sem%2520nome.png&response-expires=Tue%2C%2022%20Feb%202022%2017%3A24%3A37%20GMT)
