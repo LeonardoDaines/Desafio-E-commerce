@@ -25,8 +25,10 @@
                 <select asp-for="EquipeID" class ="form-control" asp-items="ViewBag.EquipeID"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Adicionar" class="btn btn-primary" />
-            </div>
+                <input type="submit" value="Adicionar" class="btn btn-primary" /> |
+              <a  class="btn btn-primary" asp-controller="Produto" asp-action="Create">Adicionar produto</a>
+               <a class="btn btn-primary" asp-controller="Equipe" asp-action="Create">Adicionar equipe</a>
+           </div>
         </form>
     </div>
 </div>

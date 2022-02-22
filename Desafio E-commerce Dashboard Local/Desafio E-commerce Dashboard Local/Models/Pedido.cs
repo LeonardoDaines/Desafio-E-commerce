@@ -23,7 +23,13 @@ namespace Desafio_E_commerce_Dashboard_Local.Models
         public string Endereco { get; set; }
 
 
+        [Required(ErrorMessage = "Adicione pelo menos um produto")]
+        [Display(Name = "Produtos")]
         public virtual int? ProdutoID { get; set; }
+
+
+        [Required(ErrorMessage = "Adicione pelo menos uma equipe")]
+        [Display(Name = "Equipe selecionada")]
         public virtual int? EquipeID { get; set; }
         public virtual Produto? Produto { get; set; }
         public virtual Equipe? Equipe { get; set; }
